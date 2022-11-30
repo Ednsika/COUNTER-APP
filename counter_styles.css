@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(vecteezy_modern-background-of-layered-waves-abstract-curves_7596270_982.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+main{
+    max-width: 80%;
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 100px;
+   
+}
+
+main .head{
+    padding: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 40px;
+    color: black;
+}
+
+main #count_value{
+    font-weight: 900;
+    font-size: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+main button{
+    margin-bottom: 30px;
+    padding: 20px 20px;
+    display: block;
+    margin-inline:auto;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500px;
+    border: 1px solid yellow;
+    cursor:pointer;
+    color:aliceblue
+}
+
+.count_btn{
+    background-color:  rgb(135, 27, 27);
+}
+.count_btn:hover{
+   background-color:red;
+}
+.save_btn{
+    background-color: green;
+}
+.save_btn:hover{
+    background-color: rgb(23, 198, 23);
+}
+
+p{
+    font-weight: bold;
+    padding: 10px;
+}
